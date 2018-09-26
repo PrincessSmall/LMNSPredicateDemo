@@ -53,14 +53,15 @@ NSArray * tepArr = [arr filteredArrayUsingPredicate:pre4];//filteredArrayUsingPr
   **注意**：字符串比较都是区分大小写和重音符号的。如：café和cafe是不一样的，Cafe和cafe也是不一样的。如果希望字符串比较运算不区分大小写和重音符号，请在这些运算符后使用[c]，[d]选项。其中[c]是不区分大小写，[d]是不区分重音符号，其写在字符串比较运算符之后，比如：name LIKE[cd] 'cafe'，那么不论name是cafe、Cafe还是café上面的表达式都会返回YES。
   
 * 4.集合运算符集合运算符类型
- * 1>:ANY,SOME:集合中任意一元素满足条件，就返回YES
- * 2>:ALL：集合中所有元素满足条件时，返回YES
- * 3>:NONE：集合中没有元素满足条件时，返回YES
- * 4>:IN:等价于SQL语句中的IN运算符，只有当左边表达式或值出现在右边的集合中才会返回YES
- * array[index]：返回array数组中index索引处的元素
- * array[FIRST]：返回array数组中第一个元素
- * array[LAST]：返回array数组中最后一个元素
- * array[SIZE]：返回array数组中元素的个数
+
+	 * 1>:ANY,SOME:集合中任意一元素满足条件，就返回YES
+	 * 2>:ALL：集合中所有元素满足条件时，返回YES
+	 * 3>:NONE：集合中没有元素满足条件时，返回YES
+	 * 4>:IN:等价于SQL语句中的IN运算符，只有当左边表达式或值出现在右边的集合中才会返回YES
+	 * array[index]：返回array数组中index索引处的元素
+	 * array[FIRST]：返回array数组中第一个元素
+	 * array[LAST]：返回array数组中最后一个元素
+	 * array[SIZE]：返回array数组中元素的个数
  
 **例子**：
 

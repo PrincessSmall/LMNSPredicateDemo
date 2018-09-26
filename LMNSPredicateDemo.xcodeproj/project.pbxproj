@@ -13,6 +13,7 @@
 		EECBF62B215B1E370070039A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECBF62A215B1E370070039A /* Assets.xcassets */; };
 		EECBF62E215B1E370070039A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECBF62C215B1E370070039A /* LaunchScreen.storyboard */; };
 		EECBF631215B1E370070039A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EECBF630215B1E370070039A /* main.m */; };
+		EECBF639215B1F240070039A /* LMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EECBF638215B1F240070039A /* LMPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EECBF62D215B1E370070039A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EECBF62F215B1E370070039A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EECBF630215B1E370070039A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EECBF637215B1F240070039A /* LMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMPerson.h; sourceTree = "<group>"; };
+		EECBF638215B1F240070039A /* LMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				EECBF622215B1E350070039A /* AppDelegate.m */,
 				EECBF624215B1E350070039A /* ViewController.h */,
 				EECBF625215B1E350070039A /* ViewController.m */,
+				EECBF637215B1F240070039A /* LMPerson.h */,
+				EECBF638215B1F240070039A /* LMPerson.m */,
 				EECBF627215B1E350070039A /* Main.storyboard */,
 				EECBF62A215B1E370070039A /* Assets.xcassets */,
 				EECBF62C215B1E370070039A /* LaunchScreen.storyboard */,
@@ -97,6 +102,7 @@
 		EECBF616215B1E340070039A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "李敏";
 				TargetAttributes = {
@@ -142,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECBF626215B1E350070039A /* ViewController.m in Sources */,
+				EECBF639215B1F240070039A /* LMPerson.m in Sources */,
 				EECBF631215B1E370070039A /* main.m in Sources */,
 				EECBF623215B1E350070039A /* AppDelegate.m in Sources */,
 			);
